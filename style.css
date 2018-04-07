@@ -1,0 +1,103 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+ font-family: 'Bitter', serif;
+ text-align: justify;
+ margin: 0;
+ padding:0;
+ font-size: 24px;
+}
+
+header {
+    background: #E5CFC4;
+}
+h1, h2 {
+  margin: 0;
+  padding:0;
+}
+header, section {
+  padding: 150px 10% 150px 10%;
+}
+nav, footer {
+  padding: 20px 10% 20px 10%;
+}
+
+h1 {
+  color: darkslategrey;
+  font-family: 'Meddon', cursive;
+  text-align: center;
+  }
+
+h2 {
+  color:#E5CFC4;
+  }
+p {
+ color: grey;
+ font-family: 'Sansita', sans-serif;
+ line-height: 1.5;
+ }
+ p.aboutparagraph {
+   color: white;
+ }
+
+nav {
+  background: #2d2630 ;
+}
+ header {
+  background:#E5CFC4;
+  text-align: center;
+}
+
+nav p {
+  font-size: 25px;
+}
+section#about {
+  background: #5A485E;
+}
+h2 {
+  text-align: center;
+  font-family: 'Aclonica', sans-serif;
+}
+section#hobbies {
+  background: #f2f2f2;
+}
+section#hobbies {
+  text-align: left;
+  font-family: 'Sansita', sans-serif;
+}
+p {
+  text-align: center;
+  line-height: 1.5  
+}
+}
+ul {
+  text-align: left;
+  color: #5c4729;
+}
+
+
+footer {
+  background: #c29990;
+  font-family: 'Tauri', sans-serif;
+}
+
+a{
+ text-decoration: none;
+ color: white;
+ display: inline-block;
+}
+a:hover{
+  color: red;
+  text-decoration:underline;
+}
+
+
+.wrapper{
+  max-width: 900px;
+  margin: 0 auto;
+}
