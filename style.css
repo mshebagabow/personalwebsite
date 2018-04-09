@@ -70,6 +70,10 @@ section#hobbies {
   text-align: left;
   font-family: 'Sansita', sans-serif;
 }
+
+section#hobbies h2  {
+ color: #d5a085;
+}
 p {
   text-align: center;
   line-height: 1.5
